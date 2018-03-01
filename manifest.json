@@ -1,0 +1,16 @@
+{
+ "manifest_version": 2, // Indique la version du manifest (toujours 2)
+ "name": "Extension Twitch Live Buchx", // Le nom de votre extension
+ "description": "Vous informe si le live de Buchx est lancé", // La description
+ "version": "1.0", // La version en en l'occurrence la première donc 1.0
+ // Nous n'avons pas besoin d'avoir de permissions supplémentaires
+ "browser_action": {   // Les paramètres
+  "default_popup": "index.html" // Le popup qui s'affichera quand vous cliquez sur l'îcone
+ },
+ "icons": { // L'îcone qui s'affichera lorse que vous êtes sur la page extensions des paramètre
+  "64" : "img/buchx.png" // 64 = 64x64 la taille de votre image
+ },
+ "background": { //Chargement des scripts en background de notre navigateur
+    "scripts": ["background.js"]
+ }
+}
