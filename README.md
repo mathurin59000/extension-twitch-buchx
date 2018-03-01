@@ -13,5 +13,5 @@ Petite extension twitch permettant de savoir si Buchx est en live, combien de vi
 ### Firefox
 Coming soon...
 ## Résultat
-![chrome-extensions](https://raw.githubusercontent.com/mathurin59000/extension-twitch-buchx/master/img/extension.PNG)
+![chrome-extensions](https://raw.githubusercontent.com/mathurin59000/extension-twitch-buchx/master/img/extensions.PNG)
 ![chrome-extensions](https://raw.githubusercontent.com/mathurin59000/extension-twitch-buchx/master/img/extension-open.PNG)
